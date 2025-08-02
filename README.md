@@ -9,7 +9,7 @@ We incorporate `Traffic Junction` and `SMAC` in this code,
 which you can experiment with config instructions like `env-config=messy_sc2/messy_traffic_junction/messy_traffic_junction_hard`. 
 Furthermore, the environmental noise parameters correspond to the two parameters, failure_obs_prob and randomize_initial_state, in files such as `src\config\envs\messy_sc2.yaml`. 
 We can modify them to verify the performance of the algorithm under different combinations of noise parameters. 
-It should be noted that the perturbation variance parameter of the GraphSem algorithm needs to modify the obs_tamper parameter in the `src\config\algs\graphsem.yaml` file.
+It should be noted that the perturbation variance parameter of the GraphSem algorithm needs to modify the obs_tamper parameter in the `src\config\algs\Graphsem.yaml` file.
 
 For example, you can run `GraphSem` on traffic_junction (medium) by using:
 ```sh
